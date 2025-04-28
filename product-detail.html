@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - Sip & Scoop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/product-detail.css">
+</head>
+<body>
+    <!-- Header Section (Same as index.html) -->
+
+    <!-- Product Detail Section -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="images/mango-tango.jpg" alt="Mango Tango">
+                </div>
+                <div class="thumbnail-list">
+                    <img src="images/mango-tango-1.jpg" alt="Mango Tango View 1">
+                    <img src="images/mango-tango-2.jpg" alt="Mango Tango View 2">
+                    <img src="images/mango-tango-3.jpg" alt="Mango Tango View 3">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-header">
+                    <span class="category">Fresh Juice</span>
+                    <h1>Mango Tango</h1>
+                    <div class="rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="review-count">(124 reviews)</span>
+                    </div>
+                </div>
+
+                <div class="product-price">
+                    <span class="current-price">$5.99</span>
+                    <span class="original-price">$7.99</span>
+                    <span class="discount">25% OFF</span>
+                </div>
+
+                <div class="product-description">
+                    <p>Sweet and tangy mango blend with a hint of passion fruit. Made fresh daily with premium ingredients.</p>
+                    
+                    <div class="product-features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>100% Natural</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-temperature-low"></i>
+                            <span>Fresh Daily</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-options">
+                    <div class="size-selector">
+                        <h3>Size</h3>
+                        <div class="options">
+                            <button class="size-option" data-size="small">Small (8 oz)</button>
+                            <button class="size-option active" data-size="medium">Medium (12 oz)</button>
+                            <button class="size-option" data-size="large">Large (16 oz)</button>
+                        </div>
+                    </div>
+
+                    <div class="quantity-selector">
+                        <h3>Quantity</h3>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn minus">-</button>
+                            <input type="number" value="1" min="1" max="10">
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="buy-now">Buy Now</button>
+                    <button class="favorite"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Reviews Section -->
+    <section class="product-reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-summary">
+                <div class="average-rating">
+                    <span class="rating-number">4.8</span>
+                    <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                    <span class="total-reviews">Based on 124 reviews</span>
+                </div>
+                <div class="rating-bars">
+                    <div class="rating-bar">
+                        <span class="stars">5 stars</span>
+                        <div class="bar-container">
+                            <div class="bar" style="width: 80%"></div>
+                        </div>
+                        <span class="count">98</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span class="stars">4 stars</span>
+                        <div class="bar-container">
+                            <div class="bar" style="width: 15%"></div>
+                        </div>
+                        <span class="count">19</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span class="stars">3 stars</span>
+                        <div class="bar-container">
+                            <div class="bar" style="width: 4%"></div>
+                        </div>
+                        <span class="count">5</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span class="stars">2 stars</span>
+                        <div class="bar-container">
+                            <div class="bar" style="width: 1%"></div>
+                        </div>
+                        <span class="count">1</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span class="stars">1 star</span>
+                        <div class="bar-container">
+                            <div class="bar" style="width: 0%"></div>
+                        </div>
+                        <span class="count">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews-list">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user1.jpg" alt="Sarah M." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Sarah M.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="review-date">2 days ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">Absolutely love this drink! The mango flavor is perfectly balanced, not too sweet, and the hint of passion fruit adds a wonderful tropical twist. It's become my go-to refreshment on hot days.</p>
+                    <div class="review-images">
+                        <img src="images/reviews/review1-1.jpg" alt="Customer photo">
+                        <img src="images/reviews/review1-2.jpg" alt="Customer photo">
+                    </div>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (24)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user2.jpg" alt="Mike R." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Mike R.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="review-date">1 week ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">The large size is perfect for sharing! Fresh ingredients make all the difference, and you can really taste the quality here. Will definitely be ordering again.</p>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (16)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user3.jpg" alt="Emma L." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Emma L.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐</span>
+                                <span class="review-date">2 weeks ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">Great flavor but I wish it was a bit less sweet. Still refreshing and the service was excellent!</p>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (8)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user4.jpg" alt="James K." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>James K.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="review-date">3 weeks ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">Perfect summer drink! I love how they use real mangoes - you can taste the difference. The passion fruit adds just the right amount of tang. My kids love it too!</p>
+                    <div class="review-images">
+                        <img src="images/reviews/review4-1.jpg" alt="Customer photo">
+                    </div>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (32)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user5.jpg" alt="Lisa P." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Lisa P.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐</span>
+                                <span class="review-date">1 month ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">I appreciate that they offer different size options. The medium is perfect for me. The drink is consistently good, and the staff is always friendly. Just wish they had a sugar-free option.</p>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (15)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user6.jpg" alt="David W." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>David W.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="review-date">1 month ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">Best mango drink I've had in the city! The passion fruit gives it a unique twist that sets it apart from other places. Worth every penny.</p>
+                    <div class="review-images">
+                        <img src="images/reviews/review6-1.jpg" alt="Customer photo">
+                        <img src="images/reviews/review6-2.jpg" alt="Customer photo">
+                        <img src="images/reviews/review6-3.jpg" alt="Customer photo">
+                    </div>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (45)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user7.jpg" alt="Mike R." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Mike R.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="review-date">1 week ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">The large size is perfect for sharing! Fresh ingredients make all the difference, and you can really taste the quality here. Will definitely be ordering again.</p>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (16)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="images/avatars/user8.jpg" alt="Emma L." class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Emma L.</h4>
+                            <div class="review-meta">
+                                <span class="stars">⭐⭐⭐⭐</span>
+                                <span class="review-date">2 weeks ago</span>
+                            </div>
+                        </div>
+                        <div class="verified-badge">
+                            <i class="fas fa-check-circle"></i> Verified Purchase
+                        </div>
+                    </div>
+                    <p class="review-text">Great flavor but I wish it was a bit less sweet. Still refreshing and the service was excellent!</p>
+                    <div class="review-footer">
+                        <button class="helpful-btn">
+                            <i class="far fa-thumbs-up"></i> Helpful (8)
+                        </button>
+                        <button class="report-btn">
+                            <i class="far fa-flag"></i> Report
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-more">
+                <button class="load-more-btn">Load More Reviews</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products Section -->
+    <section class="related-products">
+        <div class="container">
+            <h2>You May Also Like</h2>
+            <div class="products-slider">
+                <div class="related-product-card">
+                    <div class="product-image">
+                        <img src="images/tropical-paradise.jpg" alt="Tropical Paradise">
+                        <div class="quick-view">
+                            <button>Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <span class="category">Fresh Juice</span>
+                        <h3>Tropical Paradise</h3>
+                        <div class="rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span>(98)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current">$6.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-product-card">
+                    <div class="product-image">
+                        <img src="images/berry-blast.jpg" alt="Berry Blast">
+                        <div class="quick-view">
+                            <button>Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <span class="category">Ice Cream</span>
+                        <h3>Berry Blast</h3>
+                        <div class="rating">
+                            <span class="stars">⭐⭐⭐⭐½</span>
+                            <span>(86)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current">$4.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-product-card">
+                    <div class="product-image">
+                        <img src="images/passion-fruit.jpg" alt="Passion Fruit Smoothie">
+                        <div class="quick-view">
+                            <button>Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <span class="category">Smoothie</span>
+                        <h3>Passion Paradise</h3>
+                        <div class="rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span>(134)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current">$6.99</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-product-card">
+                    <div class="product-image">
+                        <img src="images/coconut-dream.jpg" alt="Coconut Dream">
+                        <div class="quick-view">
+                            <button>Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-details">
+                        <span class="category">Ice Cream</span>
+                        <h3>Coconut Dream</h3>
+                        <div class="rating">
+                            <span class="stars">⭐⭐⭐⭐½</span>
+                            <span>(142)</span>
+                        </div>
+                        <div class="price">
+                            <span class="current">$5.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section (Same as index.html) -->
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Sip & Scoop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/shop.css">
+</head>
+<body>
+    <!-- Header Section (Same as index.html) -->
+    
+    <!-- Shop Hero Section -->
+    <section class="shop-hero">
+        <div class="container">
+            <h1>Our Delightful Collection</h1>
+            <p>Discover your new favorite treats</p>
+        </div>
+    </section>
+
+    <!-- Shop Content -->
+    <section class="shop-content">
+        <div class="container">
+            <!-- Filters Sidebar -->
+            <aside class="filters-sidebar">
+                <div class="filter-group">
+                    <h3>Categories</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox" value="ice-cream"> Ice Cream</label>
+                        <label><input type="checkbox" value="juice"> Fresh Juices</label>
+                        <label><input type="checkbox" value="smoothie"> Smoothies</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Flavors</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox" value="chocolate"> Chocolate</label>
+                        <label><input type="checkbox" value="fruit"> Fruit</label>
+                        <label><input type="checkbox" value="vanilla"> Vanilla</label>
+                        <label><input type="checkbox" value="matcha"> Matcha</label>
+                        <label><input type="checkbox" value="berry"> Berry</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Dietary Options</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox" value="vegan"> Vegan</label>
+                        <label><input type="checkbox" value="gluten-free"> Gluten Free</label>
+                        <label><input type="checkbox" value="sugar-free"> Sugar Free</label>
+                        <label><input type="checkbox" value="dairy-free"> Dairy Free</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Size</h3>
+                    <div class="filter-options">
+                        <label><input type="radio" name="size" value="small"> Small (8 oz)</label>
+                        <label><input type="radio" name="size" value="medium"> Medium (12 oz)</label>
+                        <label><input type="radio" name="size" value="large"> Large (16 oz)</label>
+                    </div>
+                </div>
+
+                <button class="apply-filters">Apply Filters</button>
+            </aside>
+
+            <!-- Products Grid -->
+            <div class="products-grid">
+                <div class="sort-bar">
+                    <select class="sort-select">
+                        <option value="popular">Most Popular</option>
+                        <option value="newest">Newest</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                    </select>
+                </div>
+
+                <div class="products-container">
+                    <!-- Product cards will be dynamically loaded here -->
+                </div>
+
+                <div class="pagination">
+                    <button class="prev-page"><i class="fas fa-chevron-left"></i></button>
+                    <span class="current-page">1</span>
+                    <button class="next-page"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section (Same as index.html) -->
+</body>
+</html>

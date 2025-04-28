@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Sip & Scoop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+<body>
+    <!-- Header Section (Same as index.html) -->
+
+    <section class="cart-section">
+        <div class="container">
+            <h1>Your Cart</h1>
+            
+            <div class="cart-container">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <img src="images/mango-tango.jpg" alt="Mango Tango">
+                        <div class="item-details">
+                            <h3>Mango Tango</h3>
+                            <span class="size">Medium (12 oz)</span>
+                            <div class="quantity-controls">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="2" min="1">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                        </div>
+                        <div class="item-price">
+                            <span class="price">$5.99</span>
+                            <button class="remove-item"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item">
+                        <img src="images/berry-blast.jpg" alt="Berry Blast">
+                        <div class="item-details">
+                            <h3>Berry Blast</h3>
+                            <span class="size">Large (16 oz)</span>
+                            <div class="quantity-controls">
+                                <button class="qty-btn minus">-</button>
+                                <input type="number" value="1" min="1">
+                                <button class="qty-btn plus">+</button>
+                            </div>
+                        </div>
+                        <div class="item-price">
+                            <span class="price">$6.99</span>
+                            <button class="remove-item"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-summary">
+                    <h2>Order Summary</h2>
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span>$18.97</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Tax</span>
+                        <span>$1.52</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Delivery</span>
+                        <span>$2.00</span>
+                    </div>
+                    <div class="discount-code">
+                        <input type="text" placeholder="Enter discount code">
+                        <button>Apply</button>
+                    </div>
+                    <div class="summary-total">
+                        <span>Total</span>
+                        <span>$22.49</span>
+                    </div>
+                    <button class="checkout-btn">Proceed to Checkout</button>
+                    <button class="continue-shopping">Continue Shopping</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section (Same as index.html) -->
+</body>
+</html>
