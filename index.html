@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -18,11 +20,15 @@
             </div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/menu">Menu</a></li>
-                    <li><a href="/locations">Locations</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
                 </ul>
             </nav>
         </div>
@@ -39,8 +45,8 @@
             <h1>Indulge in Pure Delight</h1>
             <p>Experience the perfect blend of fresh juices and artisanal ice cream</p>
             <div class="hero-buttons">
-                <a href="#menu" class="button primary">View Menu</a>
-                <a href="#locations" class="button secondary">Find Us</a>
+                <a href="menu.html" class="button primary">View Menu</a>
+                <a href="locations.html" class="button secondary">Find Us</a>
             </div>
             <div class="hero-features">
                 <div class="feature">
@@ -72,15 +78,17 @@
                 <div class="product-card-alt">
                     <div class="product-badge">Best Seller</div>
                     <div class="product-media">
-                        <img src="images/mango-tango.jpg" alt="Mango Tango Juice">
+                        <a href="product-detail.html">
+                            <img src="images/mango-tango.jpg" alt="Mango Tango Juice">
+                        </a>
                         <div class="quick-actions">
                             <button class="add-to-cart">Add to Cart</button>
-                            <button class="view-details">Details</button>
+                            <a href="product-detail.html" class="view-details">Details</a>
                         </div>
                     </div>
                     <div class="product-content">
                         <div class="product-category">Fresh Juice</div>
-                        <h3>Mango Tango</h3>
+                        <h3><a href="product-detail.html">Mango Tango</a></h3>
                         <div class="product-description">
                             <p>Sweet and tangy mango blend</p>
                             <div class="product-stats">
@@ -422,19 +430,19 @@
         <div class="container">
             <h2>Browse Categories</h2>
             <div class="category-grid">
-                <a href="/juices" class="category-card">
+                <a href="menu.html#juices" class="category-card">
                     <img src="images/juices-category.jpg" alt="Fresh Juices">
                     <h3>Fresh Juices</h3>
                 </a>
-                <a href="/ice-cream" class="category-card">
+                <a href="menu.html#ice-cream" class="category-card">
                     <img src="images/ice-cream-category.jpg" alt="Ice Cream">
                     <h3>Ice Cream</h3>
                 </a>
-                <a href="/smoothies" class="category-card">
+                <a href="menu.html#smoothies" class="category-card">
                     <img src="images/smoothies-category.jpg" alt="Smoothies">
                     <h3>Smoothies</h3>
                 </a>
-                <a href="/specials" class="category-card">
+                <a href="menu.html#specials" class="category-card">
                     <img src="images/specials-category.jpg" alt="Special Offers">
                     <h3>Special Offers</h3>
                 </a>

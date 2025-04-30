@@ -1,0 +1,164 @@
+.contact-wrapper {
+    min-height: 100vh;
+    background: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.driver-profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.driver-profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 4px solid #ff6b6b;
+}
+
+.driver-profile h2 {
+    color: #2d3436;
+    margin-bottom: 0.5rem;
+}
+
+.driver-status {
+    color: #00b894;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #636e72;
+}
+
+.rating i {
+    color: #ffd700;
+}
+
+.contact-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contact-btn {
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-btn.call {
+    background: #ff6b6b;
+    color: white;
+}
+
+.contact-btn.message {
+    background: #00b894;
+    color: white;
+}
+
+.contact-btn i {
+    font-size: 1.5rem;
+}
+
+.contact-btn h3 {
+    margin: 0 0 0.25rem;
+}
+
+.contact-btn p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.quick-messages {
+    margin-bottom: 2rem;
+}
+
+.quick-messages h3 {
+    color: #2d3436;
+    margin-bottom: 1rem;
+}
+
+.message-options {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.quick-msg {
+    padding: 1rem;
+    border: 2px solid #f1f2f6;
+    border-radius: 10px;
+    background: white;
+    color: #2d3436;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quick-msg:hover {
+    border-color: #ff6b6b;
+    background: #fff5f5;
+}
+
+.order-info {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.order-info h3 {
+    color: #2d3436;
+    margin: 0 0 0.5rem;
+}
+
+.order-info p {
+    color: #636e72;
+    margin: 0;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #636e72;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    color: #ff6b6b;
+    transform: translateX(-5px);
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 1.5rem;
+    }
+
+    .contact-options {
+        grid-template-columns: 1fr;
+    }
+}

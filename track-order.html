@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Order - Sip & Scoop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/track-order.css">
+</head>
+<body>
+    <div class="tracking-wrapper">
+        <div class="tracking-container">
+            <h1>Track Your Order</h1>
+            <div class="order-info">
+                <div class="order-header">
+                    <div>
+                        <span class="label">Order Number:</span>
+                        <strong>#SS2024001</strong>
+                    </div>
+                    <div class="estimated-time">
+                        <i class="fas fa-clock"></i>
+                        <span>Estimated Delivery: 12:45 PM</span>
+                    </div>
+                </div>
+
+                <div class="tracking-timeline">
+                    <div class="timeline-item completed">
+                        <div class="timeline-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Order Confirmed</h3>
+                            <p>Your order has been received</p>
+                            <span class="time">12:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item completed">
+                        <div class="timeline-icon">
+                            <i class="fas fa-blender"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Preparation</h3>
+                            <p>Your drinks are being prepared</p>
+                            <span class="time">12:10 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item active">
+                        <div class="timeline-icon">
+                            <i class="fas fa-motorcycle"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>On the Way</h3>
+                            <p>Order picked up by delivery partner</p>
+                            <span class="time">12:25 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Delivered</h3>
+                            <p>Enjoy your drinks!</p>
+                            <span class="time">Expected by 12:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="delivery-details">
+                    <div class="delivery-map">
+                        <img src="images/map-placeholder.jpg" alt="Delivery Map">
+                        <div class="current-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Currently at: Main Street, Downtown</span>
+                        </div>
+                    </div>
+
+                    <div class="delivery-info">
+                        <div class="driver-info">
+                            <img src="images/driver-avatar.jpg" alt="Driver">
+                            <div>
+                                <h3>Your Delivery Partner</h3>
+                                <p>John Smith</p>
+                                <button class="contact-btn" onclick="window.location.href='contact-driver.html'">
+                                    <i class="fas fa-phone"></i>
+                                    Contact Driver
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-items">
+                    <h2>Order Details</h2>
+                    <div class="items-list">
+                        <div class="item">
+                            <span>2x Mango Tango (Medium)</span>
+                            <span>$11.98</span>
+                        </div>
+                        <div class="item">
+                            <span>1x Berry Blast (Large)</span>
+                            <span>$6.99</span>
+                        </div>
+                    </div>
+                    <div class="total">
+                        <span>Total</span>
+                        <span>$22.49</span>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <a href="place-order.html" class="back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Order
+                    </a>
+                    <button class="support-btn" onclick="window.location.href='help.html'">
+                        <i class="fas fa-headset"></i>
+                        Need Help?
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

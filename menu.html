@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Sip & Scoop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/menu.css">
+</head>
+<body>
+    <header class="menu-header">
+        <nav class="menu-nav">
+            <a href="index.html" class="back-home">
+                <i class="fas fa-arrow-left"></i>
+                
+                Back to Home
+            </a>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="juices">Fresh Juices</button>
+                <button class="filter-btn" data-filter="smoothies">Smoothies</button>
+                <button class="filter-btn" data-filter="ice-cream">Ice Cream</button>
+            </div>
+            <div class="nav-links">
+                <a href="track-order.html">Track Order</a>
+                <a href="help.html">Need Help?</a>
+                <a href="add-to-cart.html" class="cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="menu-content">
+        <div class="menu-title">
+            <h1>Our Menu</h1>
+            <p>Discover our handcrafted delights</p>
+        </div>
+
+        <section class="menu-section" id="juices">
+            <h2>Fresh Juices</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="images/mango-tango.jpg" alt="Mango Tango">
+                    <div class="item-details">
+                        <h3>Mango Tango</h3>
+                        <p>Sweet and tangy mango blend</p>
+                        <div class="size-options">
+                            <span class="size">Regular (12oz) - $4.99</span>
+                            <span class="size">Large (16oz) - $5.99</span>
+                        </div>
+                        <a href="add-to-cart.html" class="order-btn">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/orange-burst.jpg" alt="Orange Burst">
+                    <div class="item-details">
+                        <h3>Orange Burst</h3>
+                        <p>Fresh-squeezed oranges with pulp</p>
+                        <div class="size-options">
+                            <span class="size">Regular (12oz) - $4.49</span>
+                            <span class="size">Large (16oz) - $5.49</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/green-detox.jpg" alt="Green Detox">
+                    <div class="item-details">
+                        <h3>Green Detox</h3>
+                        <p>Kale, spinach, apple, and ginger</p>
+                        <div class="size-options">
+                            <span class="size">Regular (12oz) - $5.49</span>
+                            <span class="size">Large (16oz) - $6.49</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/watermelon-refresh.jpg" alt="Watermelon Refresh">
+                    <div class="item-details">
+                        <h3>Watermelon Refresh</h3>
+                        <p>Pure watermelon with mint</p>
+                        <div class="size-options">
+                            <span class="size">Regular (12oz) - $4.99</span>
+                            <span class="size">Large (16oz) - $5.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/carrot-ginger.jpg" alt="Carrot Ginger">
+                    <div class="item-details">
+                        <h3>Carrot Ginger</h3>
+                        <p>Fresh carrots with spicy ginger kick</p>
+                        <div class="size-options">
+                            <span class="size">Regular (12oz) - $5.49</span>
+                            <span class="size">Large (16oz) - $6.49</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/pineapple-punch.jpg" alt="Pineapple Punch">
+                    <div class="item-details">
+                        <h3>Pineapple Punch</h3>
+                        <p>Sweet pineapple with a hint of mint</p>
+                        <div class="size-options">
+                            <span class="size">Regular (12oz) - $4.99</span>
+                            <span class="size">Large (16oz) - $5.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+        </section>
+
+        <section class="menu-section" id="smoothies">
+            <h2>Smoothies</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="images/berry-fusion.jpg" alt="Berry Fusion">
+                    <div class="item-details">
+                        <h3>Berry Fusion</h3>
+                        <p>Mixed berries with yogurt</p>
+                        <div class="size-options">
+                            <span class="size">Regular (16oz) - $6.49</span>
+                            <span class="size">Large (20oz) - $7.49</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/tropical-paradise.jpg" alt="Tropical Paradise">
+                    <div class="item-details">
+                        <h3>Tropical Paradise</h3>
+                        <p>Pineapple, mango, coconut milk</p>
+                        <div class="size-options">
+                            <span class="size">Regular (16oz) - $6.99</span>
+                            <span class="size">Large (20oz) - $7.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/protein-power.jpg" alt="Protein Power">
+                    <div class="item-details">
+                        <h3>Protein Power</h3>
+                        <p>Banana, peanut butter, protein</p>
+                        <div class="size-options">
+                            <span class="size">Regular (16oz) - $7.49</span>
+                            <span class="size">Large (20oz) - $8.49</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/green-goddess.jpg" alt="Green Goddess">
+                    <div class="item-details">
+                        <h3>Green Goddess</h3>
+                        <p>Spinach, avocado, banana, almond milk</p>
+                        <div class="size-options">
+                            <span class="size">Regular (16oz) - $6.99</span>
+                            <span class="size">Large (20oz) - $7.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="ice-cream">
+            <h2>Ice Cream</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="images/chocolate-bliss.jpg" alt="Chocolate Bliss">
+                    <div class="item-details">
+                        <h3>Chocolate Bliss</h3>
+                        <p>Rich dark chocolate with fudge swirl</p>
+                        <div class="size-options">
+                            <span class="size">Single Scoop - $3.99</span>
+                            <span class="size">Double Scoop - $5.49</span>
+                            <span class="size">Pint - $8.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/vanilla-bean.jpg" alt="Vanilla Bean">
+                    <div class="item-details">
+                        <h3>Vanilla Bean</h3>
+                        <p>Madagascar vanilla with real beans</p>
+                        <div class="size-options">
+                            <span class="size">Single Scoop - $3.99</span>
+                            <span class="size">Double Scoop - $5.49</span>
+                            <span class="size">Pint - $8.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/strawberry-fields.jpg" alt="Strawberry Fields">
+                    <div class="item-details">
+                        <h3>Strawberry Fields</h3>
+                        <p>Fresh strawberries and cream</p>
+                        <div class="size-options">
+                            <span class="size">Single Scoop - $3.99</span>
+                            <span class="size">Double Scoop - $5.49</span>
+                            <span class="size">Pint - $8.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/mint-chip.jpg" alt="Mint Chip">
+                    <div class="item-details">
+                        <h3>Mint Chip</h3>
+                        <p>Cool mint with dark chocolate chips</p>
+                        <div class="size-options">
+                            <span class="size">Single Scoop - $3.99</span>
+                            <span class="size">Double Scoop - $5.49</span>
+                            <span class="size">Pint - $8.99</span>
+                        </div>
+                        <button class="order-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="cart-preview">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <span class="cart-count">0</span>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <span>Total:</span>
+            <span class="total-amount">$0.00</span>
+        </div>
+        <a href="add-to-cart.html" class="checkout-btn">View Cart</a>
+    </div>
+</body>
+</html>
