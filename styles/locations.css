@@ -90,14 +90,84 @@
 
 /* Map Section */
 .map-section {
-    padding: 4rem 0;
-    background: #f8f9fa;
+    padding: 60px 0;
+    background-color: #f9f9f9;
 }
 
-#map {
-    height: 400px;
+.google-map {
+    height: 500px;
+    width: 100%;
     border-radius: 15px;
-    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.location-finder {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 12px 25px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #ff5252;
+}
+
+.map-info-window {
+    padding: 15px;
+    max-width: 250px;
+}
+
+.map-info-window h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.map-info-window p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.map-info-window button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.location-card {
+    transition: transform 0.3s ease;
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
 }
 
 /* Responsive Design */

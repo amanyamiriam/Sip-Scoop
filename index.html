@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/index.css">
 </head>
-<body>
+<body id="app">
     <!-- Header Section -->
     <header class="main-header">
         <div class="container">
@@ -512,5 +512,12 @@
             </div>
         </div>
     </footer>
+    
+    <!-- Add Vue.js before other scripts -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

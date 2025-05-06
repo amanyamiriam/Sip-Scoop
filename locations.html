@@ -83,12 +83,25 @@
 
     <section class="map-section">
         <div class="container">
-            <div id="map">
-                <!-- Map will be embedded here -->
+            <div id="map" class="google-map"></div>
+            <div class="location-finder">
+                <h3>Find Your Nearest Store</h3>
+                <div class="search-box">
+                    <input type="text" id="location-search" placeholder="Enter your location">
+                    <button onclick="findNearestStore()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Include the same footer as index.html -->
+    <footer class="main-footer">
+        <!-- ... footer content ... -->
+    </footer>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+    <script src="js/locations.js"></script>
 </body>
 </html>
